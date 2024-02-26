@@ -2,27 +2,14 @@
 include ("header.php");
 ?>
 <style>
-    /* @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap"); */
-/* * {
-  box-sizing: border-box;
-} */
 
-/* html {
-  font-size: calc(100vw / 1600 * 100);
+
+
+
+/* @media (max-width: 768px) {
 } */
-@media (max-width: 768px) {
-  /* html {
-    font-size: calc(100vw / 768 * 100);
-  } */
-}
 
 body {
-  /* min-height: 100vh; */
-  /* padding: 24px; */
-
-  /* background-color: #bdd6d3; */
   font-size: 17px;
 }
 
@@ -147,7 +134,7 @@ input[type=radio]:checked + .item .content {
     color: black;
 }
 </style>
-<div>
+<div class="container-fluid">
 <div class="sub-cat" style=""><span><a href="">Home 
 </a>|<a href=""> Faq's</a></span></div>
 <div class="wrapper">
